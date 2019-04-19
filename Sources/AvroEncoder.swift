@@ -10,13 +10,13 @@ import Foundation
 
 open class AvroEncoder {
 
-    var bytes: [UInt8] = []
+    public var bytes: [UInt8] = []
 
     func encodeNull() {
         return
     }
 
-    func encodeBoolean(_ value: Bool) {
+    public func encodeBoolean(_ value: Bool) {
         if value {
             bytes.append(UInt8(0x1))
         } else {
@@ -25,19 +25,19 @@ open class AvroEncoder {
         return
     }
 
-    func encodeInt(_ value: Int32) {
+    public func encodeInt(_ value: Int32) {
         let encoded = Varint(fromValue: Int64(value).encodeZigZag())
         bytes += encoded.backing
         return
     }
 
-    func encodeLong(_ value: Int64) {
+    public func encodeLong(_ value: Int64) {
         let encoded = Varint(fromValue: value.encodeZigZag())
         bytes += encoded.backing
         return
     }
     
-    func encodeFloat(_ value: Float) {
+    public func encodeFloat(_ value: Float) {
         let bits = value.bitPattern
 
         let encodedFloat: [UInt8] = [UInt8(0xff & bits),
@@ -49,7 +49,7 @@ open class AvroEncoder {
         return
     }
     
-    func encodeDouble(_ value: Double) {
+    public func encodeDouble(_ value: Double) {
         let bits = value.bitPattern
 
         let encodedDouble: [UInt8] = [UInt8(0xff & bits),
@@ -64,17 +64,17 @@ open class AvroEncoder {
         return
     }
 
-    func encodeString(_ value: String) {
+    public func encodeString(_ value: String) {
         encodeBytes([UInt8](value.utf8))
     }
 
-    func encodeBytes(_ value: [UInt8]) {
+    public func encodeBytes(_ value: [UInt8]) {
         encodeLong(Int64(value.count))
         bytes += value
         return
     }
 
-    func encodeFixed(_ value: [UInt8]) {
+    public func encodeFixed(_ value: [UInt8]) {
         bytes += value
         return
     }

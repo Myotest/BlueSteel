@@ -293,7 +293,7 @@ public enum AvroValue {
         self.init(schema, withDecoder: decoder)
     }
 
-    init(_ schema: Schema, withDecoder decoder: AvroDecoder) {
+    public init(_ schema: Schema, withDecoder decoder: AvroDecoder) {
 
         switch schema {
         case .avroNullSchema :
