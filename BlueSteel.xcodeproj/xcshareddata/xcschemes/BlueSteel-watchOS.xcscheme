@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F8B539D0226A299400E0DE12"
-               BuildableName = "BlueSteel_watchOS.framework"
+               BuildableName = "BlueSteel.framework"
                BlueprintName = "BlueSteel-watchOS"
                ReferencedContainer = "container:BlueSteel.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8B539D0226A299400E0DE12"
-            BuildableName = "BlueSteel_watchOS.framework"
+            BuildableName = "BlueSteel.framework"
             BlueprintName = "BlueSteel-watchOS"
             ReferencedContainer = "container:BlueSteel.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8B539D0226A299400E0DE12"
-            BuildableName = "BlueSteel_watchOS.framework"
+            BuildableName = "BlueSteel.framework"
             BlueprintName = "BlueSteel-watchOS"
             ReferencedContainer = "container:BlueSteel.xcodeproj">
          </BuildableReference>

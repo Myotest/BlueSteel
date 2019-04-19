@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F8B539C3226A294700E0DE12"
-               BuildableName = "BlueSteel_iOS.framework"
+               BuildableName = "BlueSteel.framework"
                BlueprintName = "BlueSteel-iOS"
                ReferencedContainer = "container:BlueSteel.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8B539C3226A294700E0DE12"
-            BuildableName = "BlueSteel_iOS.framework"
+            BuildableName = "BlueSteel.framework"
             BlueprintName = "BlueSteel-iOS"
             ReferencedContainer = "container:BlueSteel.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8B539C3226A294700E0DE12"
-            BuildableName = "BlueSteel_iOS.framework"
+            BuildableName = "BlueSteel.framework"
             BlueprintName = "BlueSteel-iOS"
             ReferencedContainer = "container:BlueSteel.xcodeproj">
          </BuildableReference>
