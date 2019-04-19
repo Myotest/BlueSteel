@@ -23,6 +23,26 @@
 		3BA3EC331DB651FD00E4F888 /* AvroValueEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EC2E1DB651FD00E4F888 /* AvroValueEncodingTests.swift */; };
 		3BA3EC341DB651FD00E4F888 /* AvroValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EC2F1DB651FD00E4F888 /* AvroValueTests.swift */; };
 		3BA3EC351DB651FD00E4F888 /* VarintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EC301DB651FD00E4F888 /* VarintTests.swift */; };
+		F8B539D9226A2A3D00E0DE12 /* AvroConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137C1DB571DF00AAA59D /* AvroConvertible.swift */; };
+		F8B539DA226A2A3E00E0DE12 /* AvroConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137C1DB571DF00AAA59D /* AvroConvertible.swift */; };
+		F8B539DB226A2A4200E0DE12 /* AvroDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137D1DB571DF00AAA59D /* AvroDecoder.swift */; };
+		F8B539DC226A2A4200E0DE12 /* AvroDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137D1DB571DF00AAA59D /* AvroDecoder.swift */; };
+		F8B539DD226A2A4600E0DE12 /* AvroEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137E1DB571DF00AAA59D /* AvroEncoder.swift */; };
+		F8B539DE226A2A4700E0DE12 /* AvroEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137E1DB571DF00AAA59D /* AvroEncoder.swift */; };
+		F8B539DF226A2A5300E0DE12 /* AvroValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137F1DB571DF00AAA59D /* AvroValue.swift */; };
+		F8B539E0226A2A5300E0DE12 /* AvroValueEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313801DB571DF00AAA59D /* AvroValueEncoding.swift */; };
+		F8B539E1226A2A5300E0DE12 /* Boxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313821DB571DF00AAA59D /* Boxes.swift */; };
+		F8B539E2226A2A5300E0DE12 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313841DB571DF00AAA59D /* Schema.swift */; };
+		F8B539E3226A2A5300E0DE12 /* Varint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313851DB571DF00AAA59D /* Varint.swift */; };
+		F8B539E4226A2A5400E0DE12 /* AvroValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137F1DB571DF00AAA59D /* AvroValue.swift */; };
+		F8B539E5226A2A5400E0DE12 /* AvroValueEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313801DB571DF00AAA59D /* AvroValueEncoding.swift */; };
+		F8B539E6226A2A5400E0DE12 /* Boxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313821DB571DF00AAA59D /* Boxes.swift */; };
+		F8B539E7226A2A5400E0DE12 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313841DB571DF00AAA59D /* Schema.swift */; };
+		F8B539E8226A2A5400E0DE12 /* Varint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313851DB571DF00AAA59D /* Varint.swift */; };
+		F8B539E9226A2A5B00E0DE12 /* BlueSteel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0313811DB571DF00AAA59D /* BlueSteel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B539EB226A2A6800E0DE12 /* CCWrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313831DB571DF00AAA59D /* CCWrapper.c */; };
+		F8B539EC226A2A6800E0DE12 /* CCWrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313831DB571DF00AAA59D /* CCWrapper.c */; };
+		F8B539FB226A32D700E0DE12 /* BlueSteel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0313811DB571DF00AAA59D /* BlueSteel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +80,8 @@
 		3BA3EC301DB651FD00E4F888 /* VarintTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarintTests.swift; sourceTree = "<group>"; };
 		3BDB18291F15D93400803117 /* Info-Target.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Target.plist"; sourceTree = "<group>"; };
 		3BDB182A1F15D94100803117 /* Target.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Target.xcconfig; sourceTree = "<group>"; };
+		F8B539C4226A294700E0DE12 /* BlueSteel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlueSteel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B539D1226A299400E0DE12 /* BlueSteel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlueSteel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +97,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B90590D1DAECB5200B4EEC0 /* BlueSteel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B539C1226A294700E0DE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B539CE226A299400E0DE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +149,8 @@
 			children = (
 				3B9059031DAECB5200B4EEC0 /* BlueSteel.framework */,
 				3B90590C1DAECB5200B4EEC0 /* BlueSteelUnitTests.xctest */,
+				F8B539C4226A294700E0DE12 /* BlueSteel.framework */,
+				F8B539D1226A299400E0DE12 /* BlueSteel.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,6 +200,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8B539BF226A294700E0DE12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B539E9226A2A5B00E0DE12 /* BlueSteel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B539CC226A299400E0DE12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B539FB226A32D700E0DE12 /* BlueSteel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -201,6 +255,42 @@
 			productReference = 3B90590C1DAECB5200B4EEC0 /* BlueSteelUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F8B539C3226A294700E0DE12 /* BlueSteel-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B539CB226A294700E0DE12 /* Build configuration list for PBXNativeTarget "BlueSteel-iOS" */;
+			buildPhases = (
+				F8B539BF226A294700E0DE12 /* Headers */,
+				F8B539C0226A294700E0DE12 /* Sources */,
+				F8B539C1226A294700E0DE12 /* Frameworks */,
+				F8B539C2226A294700E0DE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlueSteel-iOS";
+			productName = "BlueSteel-iOS";
+			productReference = F8B539C4226A294700E0DE12 /* BlueSteel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8B539D0226A299400E0DE12 /* BlueSteel-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B539D6226A299400E0DE12 /* Build configuration list for PBXNativeTarget "BlueSteel-watchOS" */;
+			buildPhases = (
+				F8B539CC226A299400E0DE12 /* Headers */,
+				F8B539CD226A299400E0DE12 /* Sources */,
+				F8B539CE226A299400E0DE12 /* Frameworks */,
+				F8B539CF226A299400E0DE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlueSteel-watchOS";
+			productName = "BlueSteel-watchOS";
+			productReference = F8B539D1226A299400E0DE12 /* BlueSteel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,6 +313,14 @@
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
+					F8B539C3226A294700E0DE12 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Manual;
+					};
+					F8B539D0226A299400E0DE12 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Manual;
+					};
 				};
 			};
 			buildConfigurationList = 3B9058FD1DAECB5200B4EEC0 /* Build configuration list for PBXProject "BlueSteel" */;
@@ -239,6 +337,8 @@
 			targets = (
 				3B9059021DAECB5200B4EEC0 /* BlueSteel */,
 				3B90590B1DAECB5200B4EEC0 /* BlueSteelTests */,
+				F8B539C3226A294700E0DE12 /* BlueSteel-iOS */,
+				F8B539D0226A299400E0DE12 /* BlueSteel-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +352,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3B90590A1DAECB5200B4EEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B539C2226A294700E0DE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B539CF226A299400E0DE12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,6 +400,38 @@
 				3BA3EC311DB651FD00E4F888 /* AvroDecoderTests.swift in Sources */,
 				3BA3EC351DB651FD00E4F888 /* VarintTests.swift in Sources */,
 				3BA3EC341DB651FD00E4F888 /* AvroValueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B539C0226A294700E0DE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B539DB226A2A4200E0DE12 /* AvroDecoder.swift in Sources */,
+				F8B539E1226A2A5300E0DE12 /* Boxes.swift in Sources */,
+				F8B539DD226A2A4600E0DE12 /* AvroEncoder.swift in Sources */,
+				F8B539E3226A2A5300E0DE12 /* Varint.swift in Sources */,
+				F8B539D9226A2A3D00E0DE12 /* AvroConvertible.swift in Sources */,
+				F8B539DF226A2A5300E0DE12 /* AvroValue.swift in Sources */,
+				F8B539EB226A2A6800E0DE12 /* CCWrapper.c in Sources */,
+				F8B539E2226A2A5300E0DE12 /* Schema.swift in Sources */,
+				F8B539E0226A2A5300E0DE12 /* AvroValueEncoding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B539CD226A299400E0DE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B539DC226A2A4200E0DE12 /* AvroDecoder.swift in Sources */,
+				F8B539E6226A2A5400E0DE12 /* Boxes.swift in Sources */,
+				F8B539DE226A2A4700E0DE12 /* AvroEncoder.swift in Sources */,
+				F8B539E8226A2A5400E0DE12 /* Varint.swift in Sources */,
+				F8B539DA226A2A3E00E0DE12 /* AvroConvertible.swift in Sources */,
+				F8B539E4226A2A5400E0DE12 /* AvroValue.swift in Sources */,
+				F8B539EC226A2A6800E0DE12 /* CCWrapper.c in Sources */,
+				F8B539E7226A2A5400E0DE12 /* Schema.swift in Sources */,
+				F8B539E5226A2A5400E0DE12 /* AvroValueEncoding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +604,140 @@
 			};
 			name = Release;
 		};
+		F8B539C9226A294700E0DE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/BuildControl/Info-Target.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gilt.cleanroom.BlueSteel;
+				PRODUCT_NAME = BlueSteel;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8B539CA226A294700E0DE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/BuildControl/Info-Target.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gilt.cleanroom.BlueSteel;
+				PRODUCT_NAME = BlueSteel;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8B539D7226A299400E0DE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/BuildControl/Info-Target.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gilt.cleanroom.BlueSteel;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		F8B539D8226A299400E0DE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/BuildControl/Info-Target.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gilt.cleanroom.BlueSteel;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -484,6 +764,24 @@
 			buildConfigurations = (
 				3B90591B1DAECB5200B4EEC0 /* Debug */,
 				3B90591C1DAECB5200B4EEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B539CB226A294700E0DE12 /* Build configuration list for PBXNativeTarget "BlueSteel-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B539C9226A294700E0DE12 /* Debug */,
+				F8B539CA226A294700E0DE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B539D6226A299400E0DE12 /* Build configuration list for PBXNativeTarget "BlueSteel-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B539D7226A299400E0DE12 /* Debug */,
+				F8B539D8226A299400E0DE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
