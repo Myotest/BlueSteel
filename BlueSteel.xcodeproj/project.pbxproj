@@ -7,17 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B0313861DB571DF00AAA59D /* AvroConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137C1DB571DF00AAA59D /* AvroConvertible.swift */; };
-		3B0313871DB571DF00AAA59D /* AvroDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137D1DB571DF00AAA59D /* AvroDecoder.swift */; };
-		3B0313881DB571DF00AAA59D /* AvroEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137E1DB571DF00AAA59D /* AvroEncoder.swift */; };
-		3B0313891DB571DF00AAA59D /* AvroValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B03137F1DB571DF00AAA59D /* AvroValue.swift */; };
-		3B03138A1DB571DF00AAA59D /* AvroValueEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313801DB571DF00AAA59D /* AvroValueEncoding.swift */; };
-		3B03138B1DB571DF00AAA59D /* BlueSteel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0313811DB571DF00AAA59D /* BlueSteel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B03138C1DB571DF00AAA59D /* Boxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313821DB571DF00AAA59D /* Boxes.swift */; };
-		3B03138D1DB571DF00AAA59D /* CCWrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313831DB571DF00AAA59D /* CCWrapper.c */; };
-		3B03138E1DB571DF00AAA59D /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313841DB571DF00AAA59D /* Schema.swift */; };
-		3B03138F1DB571DF00AAA59D /* Varint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0313851DB571DF00AAA59D /* Varint.swift */; };
-		3B90590D1DAECB5200B4EEC0 /* BlueSteel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9059031DAECB5200B4EEC0 /* BlueSteel.framework */; };
 		3BA3EC311DB651FD00E4F888 /* AvroDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EC2C1DB651FD00E4F888 /* AvroDecoderTests.swift */; };
 		3BA3EC321DB651FD00E4F888 /* AvroSchemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EC2D1DB651FD00E4F888 /* AvroSchemaTests.swift */; };
 		3BA3EC331DB651FD00E4F888 /* AvroValueEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EC2E1DB651FD00E4F888 /* AvroValueEncodingTests.swift */; };
@@ -45,16 +34,6 @@
 		F8B539FB226A32D700E0DE12 /* BlueSteel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0313811DB571DF00AAA59D /* BlueSteel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3B90590E1DAECB5200B4EEC0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3B9058FA1DAECB5200B4EEC0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B9059021DAECB5200B4EEC0;
-			remoteInfo = BlueSteel;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		3B03137C1DB571DF00AAA59D /* AvroConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvroConvertible.swift; sourceTree = "<group>"; };
 		3B03137D1DB571DF00AAA59D /* AvroDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvroDecoder.swift; sourceTree = "<group>"; };
@@ -66,7 +45,6 @@
 		3B0313831DB571DF00AAA59D /* CCWrapper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CCWrapper.c; sourceTree = "<group>"; };
 		3B0313841DB571DF00AAA59D /* Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schema.swift; sourceTree = "<group>"; };
 		3B0313851DB571DF00AAA59D /* Varint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Varint.swift; sourceTree = "<group>"; };
-		3B9059031DAECB5200B4EEC0 /* BlueSteel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlueSteel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B90590C1DAECB5200B4EEC0 /* BlueSteelUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueSteelUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9059251DAECB9E00B4EEC0 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		3B9059271DAECB9E00B4EEC0 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
@@ -85,18 +63,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B9058FF1DAECB5200B4EEC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3B9059091DAECB5200B4EEC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B90590D1DAECB5200B4EEC0 /* BlueSteel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +117,6 @@
 		3B9059041DAECB5200B4EEC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B9059031DAECB5200B4EEC0 /* BlueSteel.framework */,
 				3B90590C1DAECB5200B4EEC0 /* BlueSteelUnitTests.xctest */,
 				F8B539C4226A294700E0DE12 /* BlueSteel.framework */,
 				F8B539D1226A299400E0DE12 /* BlueSteel.framework */,
@@ -192,14 +161,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B9059001DAECB5200B4EEC0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B03138B1DB571DF00AAA59D /* BlueSteel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F8B539BF226A294700E0DE12 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,24 +180,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3B9059021DAECB5200B4EEC0 /* BlueSteel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B9059171DAECB5200B4EEC0 /* Build configuration list for PBXNativeTarget "BlueSteel" */;
-			buildPhases = (
-				3B9058FE1DAECB5200B4EEC0 /* Sources */,
-				3B9058FF1DAECB5200B4EEC0 /* Frameworks */,
-				3B9059001DAECB5200B4EEC0 /* Headers */,
-				3B9059011DAECB5200B4EEC0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BlueSteel;
-			productName = BlueSteel;
-			productReference = 3B9059031DAECB5200B4EEC0 /* BlueSteel.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		3B90590B1DAECB5200B4EEC0 /* BlueSteelTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B90591A1DAECB5200B4EEC0 /* Build configuration list for PBXNativeTarget "BlueSteelTests" */;
@@ -248,7 +191,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				3B90590F1DAECB5200B4EEC0 /* PBXTargetDependency */,
 			);
 			name = BlueSteelTests;
 			productName = BlueSteelTests;
@@ -301,11 +243,6 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Gilt Groupe";
 				TargetAttributes = {
-					3B9059021DAECB5200B4EEC0 = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
-					};
 					3B90590B1DAECB5200B4EEC0 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = MTP6A36P8K;
@@ -335,7 +272,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B9059021DAECB5200B4EEC0 /* BlueSteel */,
 				3B90590B1DAECB5200B4EEC0 /* BlueSteelTests */,
 				F8B539C3226A294700E0DE12 /* BlueSteel-iOS */,
 				F8B539D0226A299400E0DE12 /* BlueSteel-watchOS */,
@@ -344,13 +280,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3B9059011DAECB5200B4EEC0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3B90590A1DAECB5200B4EEC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,22 +304,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B9058FE1DAECB5200B4EEC0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B03138E1DB571DF00AAA59D /* Schema.swift in Sources */,
-				3B0313871DB571DF00AAA59D /* AvroDecoder.swift in Sources */,
-				3B03138C1DB571DF00AAA59D /* Boxes.swift in Sources */,
-				3B0313881DB571DF00AAA59D /* AvroEncoder.swift in Sources */,
-				3B0313861DB571DF00AAA59D /* AvroConvertible.swift in Sources */,
-				3B03138F1DB571DF00AAA59D /* Varint.swift in Sources */,
-				3B0313891DB571DF00AAA59D /* AvroValue.swift in Sources */,
-				3B03138D1DB571DF00AAA59D /* CCWrapper.c in Sources */,
-				3B03138A1DB571DF00AAA59D /* AvroValueEncoding.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3B9059081DAECB5200B4EEC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -436,14 +349,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3B90590F1DAECB5200B4EEC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3B9059021DAECB5200B4EEC0 /* BlueSteel */;
-			targetProxy = 3B90590E1DAECB5200B4EEC0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3B9059151DAECB5200B4EEC0 /* Debug */ = {
@@ -554,40 +459,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3B9059181DAECB5200B4EEC0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B9059251DAECB9E00B4EEC0 /* Debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 17;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		3B9059191DAECB5200B4EEC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B9059281DAECB9E00B4EEC0 /* Release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 17;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -756,15 +627,6 @@
 			buildConfigurations = (
 				3B9059151DAECB5200B4EEC0 /* Debug */,
 				3B9059161DAECB5200B4EEC0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B9059171DAECB5200B4EEC0 /* Build configuration list for PBXNativeTarget "BlueSteel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B9059181DAECB5200B4EEC0 /* Debug */,
-				3B9059191DAECB5200B4EEC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
