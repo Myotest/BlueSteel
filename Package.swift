@@ -12,7 +12,7 @@ let package = Package(
             targets: ["BlueSteel"]),
     ],
     dependencies: [
-        .package(url: "git@github.com:IBM-Swift/BlueCryptor.git", from: "1.0.32") // "Cryptor"
+        .package(url: "https://github.com/IBM-Swift/BlueCryptor.git", from: "1.0.32") // "Cryptor"
     ],
     targets: [
         .target(
