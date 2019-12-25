@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CommonCrypto
+import Cryptor
 
 public enum AvroType {
     // Primitives
@@ -219,13 +219,9 @@ public enum Schema {
     public func fingerprint() -> [UInt8]? {
         var etypes: [String] = []
         if let pcf = self.parsingCanonicalForm(&etypes) {
-            var hash = [UInt8](repeating: 0, count: 32)
-            if let cString = pcf.cString(using: String.Encoding.utf8) {
-                // Compute hash of PCF string without the NULL terminator.
-
-                CC_SHA256(cString, UInt32(cString.count - 1), &hash)
-                return hash
-            }
+            let sha256 = Digest(using: .sha256)
+            _ = sha256.update(string: pcf)
+            return sha256.final()
         }
         return nil
     }

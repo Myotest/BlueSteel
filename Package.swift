@@ -11,10 +11,13 @@ let package = Package(
             name: "BlueSteel",
             targets: ["BlueSteel"]),
     ],
+    dependencies: [
+        .package(url: "git@github.com:IBM-Swift/BlueCryptor.git", from: "1.0.32") // "Cryptor"
+    ],
     targets: [
         .target(
             name: "BlueSteel",
-            dependencies: []),
+            dependencies: ["Cryptor"]),
         .testTarget(
             name: "BlueSteelTests",
             dependencies: ["BlueSteel"]),

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,6 +22,7 @@
 		3BA3EC331DB651FD00E4F888 /* AvroValueEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EC2E1DB651FD00E4F888 /* AvroValueEncodingTests.swift */; };
 		3BA3EC341DB651FD00E4F888 /* AvroValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EC2F1DB651FD00E4F888 /* AvroValueTests.swift */; };
 		3BA3EC351DB651FD00E4F888 /* VarintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3EC301DB651FD00E4F888 /* VarintTests.swift */; };
+		F8D87FC223B42C2E0082274E /* Cryptor in Frameworks */ = {isa = PBXBuildFile; productRef = F8D87FC123B42C2E0082274E /* Cryptor */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D87FC223B42C2E0082274E /* Cryptor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +178,9 @@
 			dependencies = (
 			);
 			name = BlueSteel;
+			packageProductDependencies = (
+				F8D87FC123B42C2E0082274E /* Cryptor */,
+			);
 			productName = BlueSteel;
 			productReference = 3B9059031DAECB5200B4EEC0 /* BlueSteel.framework */;
 			productType = "com.apple.product-type.framework";
@@ -231,6 +236,9 @@
 				Base,
 			);
 			mainGroup = 3B9058F91DAECB5200B4EEC0;
+			packageReferences = (
+				F8D87FC023B42C2E0082274E /* XCRemoteSwiftPackageReference "BlueCryptor" */,
+			);
 			productRefGroup = 3B9059041DAECB5200B4EEC0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -403,7 +411,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -452,7 +461,8 @@
 			baseConfigurationReference = 3B9059291DAECB9E00B4EEC0 /* Tests.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -488,6 +498,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F8D87FC023B42C2E0082274E /* XCRemoteSwiftPackageReference "BlueCryptor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:IBM-Swift/BlueCryptor.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.32;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8D87FC123B42C2E0082274E /* Cryptor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8D87FC023B42C2E0082274E /* XCRemoteSwiftPackageReference "BlueCryptor" */;
+			productName = Cryptor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3B9058FA1DAECB5200B4EEC0 /* Project object */;
 }
