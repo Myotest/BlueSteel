@@ -13,33 +13,32 @@ env:
     - destination='platform=macOS' scheme='BlueSteel'
 
 script:
-  #- cp ./id_rsa.pub ~/.ssh/
   - xcodebuild clean test -destination "$destination" -scheme "$scheme" -disableAutomaticPackageResolution | xcpretty  -c; exit ${PIPESTATUS[0]}
 
 stages:
   - Swift
   - Test
-  # - Linux
+  - Linux
 
 jobs:
   include:
     - stage: Swift
       script: swift test
       name: "macOS Swift"
-    # - stage: Linux
-    #   os: linux
-    #   dist: bionic
-    #   language: c
-    #   env: SWIFT_BRANCH=swift-5.1.3-release SWIFT_VERSION=swift-5.1.3-RELEASE
-    #   install:
-    #     - sudo apt-get install clang libicu-dev
-    #     - mkdir swift
-    #     - curl https://swift.org/builds/$SWIFT_BRANCH/ubuntu1804/$SWIFT_VERSION/$SWIFT_VERSION-ubuntu18.04.tar.gz -s | tar xz -C swift &> /dev/null
-    #     - export PATH="$(pwd)/swift/$SWIFT_VERSION-ubuntu18.04/usr/bin:$PATH"
-    #   script:
-    #     - set -o pipefail
-    #     - swift --version
-    #     - swift package update
-    #     - swift test
-    #   name: "Linux"
+    - stage: Linux
+      os: linux
+      dist: bionic
+      language: c
+      env: SWIFT_BRANCH=swift-5.1.3-release SWIFT_VERSION=swift-5.1.3-RELEASE
+      install:
+        - sudo apt-get install clang libicu-dev
+        - mkdir swift
+        - curl https://swift.org/builds/$SWIFT_BRANCH/ubuntu1804/$SWIFT_VERSION/$SWIFT_VERSION-ubuntu18.04.tar.gz -s | tar xz -C swift &> /dev/null
+        - export PATH="$(pwd)/swift/$SWIFT_VERSION-ubuntu18.04/usr/bin:$PATH"
+      script:
+        - set -o pipefail
+        - swift --version
+        - swift package update
+        - swift test
+      name: "Linux"
 
