@@ -21,14 +21,14 @@ class VarintTests: XCTestCase {
 
     func testToInt() {
         //TODO: Exercise a range of numbers here.
-        let expected = Int64(bitPattern: UInt64.random(in: 0...UINT64_MAX))
+        let expected = Int64.random(in: 0...0xFFFFFFFF)
         let testvarint = Varint(fromValue: expected)
         let val = testvarint.toInt64()
         XCTAssertEqual(val, expected, "Expected -1. Got\(val)")
     }
 
     func testToUInt() {
-        let expected = UInt64.random(in: 0...UINT64_MAX)
+        let expected = UInt64.random(in: 0...0xFFFFFFFF)
         let testvarint = Varint(fromValue: expected)
         let val = testvarint.toUInt64()
         XCTAssertEqual(val, expected, "Expected -1. Got\(val)")
